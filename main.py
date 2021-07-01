@@ -18,7 +18,7 @@ if x1 == 'midspam':
     sleep(.5)
     print("///////\033[4;34m> SPAM DE E-MAIL'S AQUI <////////\033[m")
     sleep(1)
-    print('////////\033[4;34m> TOOL BY DR MIDNIGHT </////////\033[m')
+    print('\033[4;34m////////> TOOL BY DR MIDNIGHT </////////\033[m')
     sleep(.5)
     print('\033[4;34m========================================\033[m\n')
     sleep(.5)
@@ -38,7 +38,7 @@ if x1 == 'midspam':
     server.starttls()
     server.login(send, password)
     while True:
-        print(f'\n\033[1;4;32mAtacando: {rec}')
+        print(f'\n\033[1;32mAtacando: {rec}')
         server.sendmail(send, rec, msg)
 else:
     print('\033[1;4;31mSenha Incorreta... Get the Fuck Out!')
