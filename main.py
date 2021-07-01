@@ -16,11 +16,11 @@ if x1 == 'midspam':
     sleep(3)
     print('\033[1;4;34m========================================')
     sleep(.5)
-    print("///////\033[4;34m> SPAM DE E-MAIL'S AQUI <////////")
+    print("///////\033[4;34m> SPAM DE E-MAIL'S AQUI <////////\033[m")
     sleep(1)
-    print('////////\033[4;34m> TOOL BY DR MIDNIGHT </////////')
+    print('////////\033[4;34m> TOOL BY DR MIDNIGHT </////////\033[m')
     sleep(.5)
-    print('========================================\n')
+    print('\033[4;34m========================================\033[m\n')
     sleep(.5)
     send = 'print.py3@gmail.com'
     rec = input('\033[4;36mEmail para atacar:\033[m ')
@@ -30,7 +30,7 @@ if x1 == 'midspam':
 
     print('\033[1;4;34mA senha que pede abaixo é \033[1;4;33m"LEVEL1983"')
 
-    password = input('\033[1;4;36mSenha:\033[m ')
+    password = input('\033[1;4;36mSenha: ')
 
     server = smtplib.SMTP('smtp.gmail.com', 587)
 
@@ -41,4 +41,4 @@ if x1 == 'midspam':
         print(f'\n\033[1;4;32mAtacando: {rec}')
         server.sendmail(send, rec, msg)
 else:
-    print('\033[1;4;31mSenha Incorreta... Get the Fuck Out!')
+    print('\033[1;4;31mSenha Incorreta... Get the Fuck Out!'
