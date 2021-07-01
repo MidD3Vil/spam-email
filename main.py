@@ -41,4 +41,14 @@ if x1 == 'midspam':
         print(f'\n\033[1;4;32mAtacando: {rec}')
         server.sendmail(send, rec, msg)
 else:
+    print('\033[1;4;31mSenha Incorreta... Get the Fuck Out!')
+
+
+    server.ehlo()
+    server.starttls()
+    server.login(send, password)
+    while True:
+        print(f'\n\033[1;4;32mAtacando: {rec}')
+        server.sendmail(send, rec, msg)
+else:
     print('\033[1;4;31mSenha Incorreta... Get the Fuck Out!'
