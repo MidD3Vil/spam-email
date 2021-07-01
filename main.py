@@ -30,7 +30,7 @@ if x1 == 'midspam':
 
     print('\033[1;4;34mA senha que pede abaixo é \033[1;4;33m"LEVEL1983"')
 
-    password = input('\033[1;4;36mSenha: ')
+    password = input('\033[1;4;36mSenha:\033[m ')
 
     server = smtplib.SMTP('smtp.gmail.com', 587)
 
