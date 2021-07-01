@@ -24,6 +24,8 @@ $ pkg install git python figlet -y
 $ git clone https://github.com/drmidnightytb/spam-email
 $ cd spam-email
 $ python3 main.py
+
+SENHA --> midspam
 ```
 
 ---------------------------------------------------------------------------
