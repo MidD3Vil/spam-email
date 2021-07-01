@@ -22,7 +22,7 @@ Bom, é isso. Espero que gostem...
 $ pkg upgrade -y && pkg update -y
 $ pkg install git python figlet -y
 $ git clone https://github.com/drmidnightytb/spam-email
-$ cd spma-email
+$ cd spam-email
 $ python3 main.py
 ```
 
