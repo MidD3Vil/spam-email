@@ -1,12 +1,14 @@
 # <h2 align="center">🖥 Spam-Email</h2>
 ---------------------------------------------------------------------------
 
-Esta é uma ferramenta de spam, feita totalmente em python que serve apenas para estudo pessoal.
-infelizmente ela só é capaz de "atacar" emails com @gmail.com, porém é 100% eficiente.
+Esta é uma ferramenta de spam e desativação de contas no whatsapp, feita totalmente em
+python que serve apenas para estudo pessoal. Infelizmente ela só é capaz de "atacar"
+emails com @gmail.com, porém é 100% eficiente.
 
 Para usa-la é necessário:
 - [x] CONEXÃO ESTÁVEL
 - [x] EMAIL OBJETIVO
+- [x] NÚMERO ONJETIVO 
 - [x] MENSAGEM PARA ENVIO
 
 Bom, é isso. Espero que gostem...
