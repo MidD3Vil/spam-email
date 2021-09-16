@@ -23,7 +23,7 @@ Bom, é isso. Espero que gostem...
 💻 Termux
 $ pkg upgrade -y && pkg update -y
 $ pkg install git python figlet -y
-$ git clone https://github.com/drmidnightytb/spam-email
+$ git clone https://github.com/MidD3Vil/spam-email
 $ cd spam-email
 $ python3 main.py
 
